@@ -11,7 +11,12 @@ class Star:
         pygame.init()
         pygame.display.set_caption("Alien_Invation")
         # Load pic
-        #self.image1 = pygame.image.load('pic//star.jpg')
+        # self.image1 = pygame.image.load('pic//star.jpg')
+
+        # Star settings
+        self.star_width = 3
+        self.star_height = 3
+        self.bullet_color = (255,255,255)
 
         # Background settings
         self.screen_width = 800
